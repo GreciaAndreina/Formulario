@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="titular">Formulario</h1>
+    </header>
+    <main>
+      <form class="formulario">
+          <label for="name">Nombre:</label> <br>
+          <input placeholder="mi nombre" id="name" type="text" name="name"/>
+        </div>
+
+        <div class="telefono">
+          <label for="telefono">Telefono:</label> <br>
+          <input
+            placeholder="+57 3017158183"
+            id="telefono"
+            type="number"
+            name="telefono"
+          />
+        </div>
+
+        <div class="ubicacion">
+          <label for="ubicacion">Ubicación:</label> <br>
+          <input
+            placeholder="crra. 115A #64cc-04"
+            type="text"
+            name="ubicacion"
+          />
+        </div>
+
+        <div class="email">
+          <label for="email">Email:</label> <br>
+          <input
+            placeholder="hola@gmail.com"
+            id="email"
+            type="email"
+            name="email"
+          />
+        </div>
+        <div class="mensaje">
+          <label for="mensaje">Mensaje:</label> <br>
+          <textarea
+            placeholder="deja tu mensaje"
+            name="textarea"
+            id="mensaje"
+            cols="20"
+            rows="5"
+          ></textarea>
+          <input type="submit" value="ENVIAR" id="boton">
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
